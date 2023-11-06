@@ -1,7 +1,4 @@
 import React,{useEffect,useState} from 'react'; 
-import 'primereact/resources/themes/lara-light-indigo/theme.css';   // theme
-import 'primereact/resources/primereact.css'; 
-import { TabView, TabPanel } from 'primereact/tabview';
 import { Button } from 'react-bootstrap';
 import { MdWarning } from 'react-icons/md';
 import { MdCached } from 'react-icons/md';
