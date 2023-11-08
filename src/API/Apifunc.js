@@ -7,7 +7,7 @@ export const ApiFunc = axios.create({
   baseURL: BaseUrl,
   headers: {
     
-    "Ocp-Apim-Subscription-Key":"749345e3c06e48ff9c6ace0805170d08" 
+    "Ocp-Apim-Subscription-Key":"######################" 
   },
 }); 
 
