@@ -32,7 +32,7 @@ const Navbar = ({ title }) => {
              <span class="navbar-toggler-icon"></span>
            </button>
            <div >
-     <span class="navbar-brand h1" style={{fontSize: 30 }}>Dashboard</span>
+     <span class="navbar-brand h1" style={{fontSize: 30 }}>{props.title}</span>
    </div>
    
            <div class="d-flex justify-content-end">
