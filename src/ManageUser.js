@@ -8,7 +8,7 @@ import { Modal } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import {ApiFunc} from './API/Apifunc';
 import React, { useEffect, useState } from "react";
-import Navbar2 from './Page/Navbar2';
+//import Navbar2 from './Page/Navbar2';
 import AlertContext from "./AlertContext";
 import {useContext} from 'react';
 
