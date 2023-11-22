@@ -9,7 +9,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
-const Navbar = ({ title }) => {
+const Navbar = (props) => {
     const auth = useAuth();
     // console.log(auth)
     let role = auth.user ? auth.user.role : null;
