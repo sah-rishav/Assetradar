@@ -2,7 +2,7 @@ import * as React from 'react';
 import { MdDensityMedium } from 'react-icons/md';
 import { MdAdd } from 'react-icons/md';
 import FirmwareCard from './FirmwareCard';
-import Navbar2 from '../Page/Navbar2';
+//import Navbar2 from '../Page/Navbar2';
 import { Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
 import FirmwareFileUpload from './FirmwareFileUpload';
