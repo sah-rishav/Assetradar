@@ -6,14 +6,14 @@ import ManageUser from './ManageUser';
 import Firmware from './Firmware/Firmware';
 import DeviceMan from './DeviceManager/DeviceMan';
 import AssetManager from './AssetManager/AssetManager';
-import Navbar from './Page/Navbar2';
+import Navbar from './Navbar';
 import './App.css';
 
 function LeftTabsExample() {
    
   return (
     <div>
-    <Navbar/>
+    <Navbar title="Administration"/>
     <Tab.Container id="left-tabs-example"  defaultActiveKey="second">
     
       <Row>
