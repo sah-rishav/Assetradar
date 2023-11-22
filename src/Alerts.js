@@ -3,7 +3,7 @@ import { Modal } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import { MdSignalCellular3Bar } from 'react-icons/md';
 import {ApiFunc} from './API/Apifunc';
-import Tabs1 from './Tabs1';
+import Tabs from './Tabs';
 
 function Alerts() {
   const [show, setShow] = React.useState(false);
@@ -141,7 +141,7 @@ function Alerts() {
 </div>
 <hr/>
 <div style={{fontSize:14,fontWeight:'bold'}}>
-<Tabs1 data={RAM_AssetID}/> 
+<Tabs ekey="Alerts" data={RAM_AssetID}/> 
 
 </div>
 </div>)}
