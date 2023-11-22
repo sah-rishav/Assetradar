@@ -158,7 +158,7 @@ function Box() {
 </div>
 <hr/>
 <div style={{fontSize:14,fontWeight:'bold'}}>
-<Tabs data={newAssetid}/> 
+<Tabs ekey="Overview" data={newAssetid}/> 
 
 </div>
 </div>  )}
