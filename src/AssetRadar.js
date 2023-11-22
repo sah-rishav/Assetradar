@@ -86,7 +86,7 @@ function AssetRadar() {
 
     return (
       <div >
-        <Navbar/>
+        <Navbar title="Dashboard"/>
    <br/>
         {AssetData.map((post)=>{
           const {TotalAssetCount,assetUtilCount,idleAssetCount, DeploymentCount,InstalledCount,NotInstalledCount,AlertAssetCount,AlertRedCount,AlertAmberCount}=post;
