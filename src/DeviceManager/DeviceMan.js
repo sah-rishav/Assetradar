@@ -1,5 +1,5 @@
 import { MdAdd, MdMenu } from 'react-icons/md';
-import Navbar2 from '../Page/Navbar2';
+//import Navbar2 from '../Page/Navbar2';
 import Table from '../table';
 import DeviManCard from './DeviManCard';
 import { Modal } from 'react-bootstrap';
