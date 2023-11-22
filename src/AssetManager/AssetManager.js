@@ -4,7 +4,7 @@ import {FaHistory} from 'react-icons/fa';
 import {MdDensityMedium} from 'react-icons/md';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import Navbar2 from '../Page/Navbar2';
+//import Navbar2 from '../Page/Navbar2';
 import * as React from 'react';
 import AssetTable from './AssetTable';
 import AssetImgUpload from './AssetImgUpload';
