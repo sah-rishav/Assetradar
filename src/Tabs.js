@@ -59,7 +59,7 @@ export default function BasicDemo(props) {
           
            
                <Tabs
-      defaultActiveKey="Overview"
+      defaultActiveKey={props.ekey}
       id="justify-tab-example"
       className="mb-4"
       justify
